@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IMT Admin</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="CSS/bootstrap.css" />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <!-- Side Menu -->
+    <section id="menu">
+      <div class="logo">
+        <img src="images/BV@2x-n.png" alt="" />
+        <h2>OLIPOP</h2>
+      </div>
+
+      <div class="item">
+        <li><i class="fa-solid fa-chart-pie"></i><a href="#">Dashboard</a></li>
+        <li><i class="fa-solid fa-table"></i><a href="#">Tables</a></li>
+        <li><i class="fa-solid fa-pen-to-square"></i><a href="#">Forms</a></li>
+        <li><i class="fa-solid fa-id-card"></i><a href="#">Cards</a></li>
+        <li><i class="fa-solid fa-chart-line"></i><a href="#">Blank</a></li>
+      </div>
+    </section>
+
+    <!-- Navbar -->
+    <section id="interface">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <form class="form-inline my-2 my-lg-0">
+            <input
+              class="form-control mr-sm-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-primary my-2 my-sm-0" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+        <!-- Profile -->
+        <div class="profile">
+          <i class="fa-solid fa-comment-dots"></i>
+          <i class="far fa-bell"></i>
+          <img src="images/attractive-gab8e88735_1920.jpg" alt="" />
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav>
+
+      <!-- CARDS -->
+
+      <h3 class="dash">Dashboard</h3>
+
+      <div class="value">
+        <div class="val-box bg-dark">
+          <i class="fas fa-users"></i>
+          <div>
+            <h3>26,126,000</h3>
+            <span>Customers</span>
+          </div>
+        </div>
+
+        <div class="val-box bg-light" style="color: black">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <div>
+            <h3>366,126,000</h3>
+            <span>Total Orders</span>
+          </div>
+        </div>
+
+        <div class="val-box bg-danger">
+          <i class="fa-solid fa-bag-shopping"></i>
+          <div>
+            <h3>126,126,000</h3>
+            <span>Products Sold</span>
+          </div>
+        </div>
+
+        <div class="val-box bg-primary">
+          <i class="fa-solid fa-dollar-sign"></i>
+          <div>
+            <h3>526,126,000</h3>
+            <span>This Year</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="board">
+        <table width="100%">
+          <thead>
+            <tr>
+              <th>Id</th>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Phone</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>IMTAP1</td>
+              <td>Jeremiah</td>
+              <td>tiptop@gmail.com</td>
+              <td>0243556759</td>
+              <td><p class="status status-unavailable">Unavailable</p></td>
+            </tr>
+
+            <tr>
+              <td>IMTAP2</td>
+              <td>Bright</td>
+              <td>bright419@gmail.com</td>
+              <td>0543666430</td>
+              <td><p class="status status-available">Available</p></td>
+            </tr>
+
+            <tr>
+              <td>IMTAP3</td>
+              <td>Papa Yaw</td>
+              <td>yawpapa666@gmail.com</td>
+              <td>0444766437</td>
+              <td><p class="status status-available">Available</p></td>
+            </tr>
+
+            <tr>
+              <td>IMTAP4</td>
+              <td>Micheal</td>
+              <td>micheal902@gmail.com</td>
+              <td>0400376543</td>
+              <td><p class="status status-uavailable">Unavailable</p></td>
+            </tr>
+
+            <tr>
+              <td>IMTAP5</td>
+              <td>Khadijah</td>
+              <td>dijha419@yahoo.com</td>
+              <td>0555980234</td>
+              <td><p class="status status-available">Available</p></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
